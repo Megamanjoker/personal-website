@@ -12,12 +12,12 @@ router.get('/', (req, res) => {
 });
 
 router.post('/', (req, res) => {
-    const newPost = new Movies ({
+    const newMovie = new Movies ({
         name: req.body.name,
         year: req.body.year,
         actor: req.body.actor
     });
-    newPost.save()
+    newMovie.save()
         .then(movies => res.json(movies));
 });
 
