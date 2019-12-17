@@ -15,7 +15,7 @@ router.post('/', (req, res) => {
     const newMovie = new Movies ({
         name: req.body.name,
         year: req.body.year,
-        actor: req.body.actor
+        actors: req.body.actors
     });
     newMovie.save()
         .then(movies => res.json(movies));
