@@ -13,12 +13,18 @@ router.get('/', (req, res) => {
 
 router.post('/', (req, res) => {
     const newMovie = new Movies ({
-        name: req.body.name,
+        title: req.body.title,
         year: req.body.year,
-        actors: req.body.actors
+        actor: req.body.actor
     });
     newMovie.save()
         .then(movies => res.json(movies));
+});
+
+router.delete('/:id', (req, res) => {
+    Movies.findById(req.params.id)
+    .then(movie => movie.remove().then(() => res.json({success: true })))
+    .catch(err => res.status(404).json({sucess: false}));
 });
 
 module.exports = router;

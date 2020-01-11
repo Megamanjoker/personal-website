@@ -3,7 +3,7 @@ const Schema = mongoose.Schema;
 
 //create schema
 const movieSchema = new Schema ({
-    name: {
+    title: {
         type: String,
         required: true
     },
@@ -11,7 +11,7 @@ const movieSchema = new Schema ({
        type: Number,
        required: true 
     },
-    actors: {
+    actor: {
         type: String,
         required: true
     },
