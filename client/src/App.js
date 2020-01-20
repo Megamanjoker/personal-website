@@ -1,6 +1,7 @@
 import React from 'react';
 import MovieList from './components/MovieList';
 import Navbar from './Navbar';
+import Latest from './components/Latest';
 
 import { Provider } from 'react-redux';
 import store from './store';
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <MovieList/>
       <MovieModal />
+      <Latest />
     </div>
     </Provider>
   );
