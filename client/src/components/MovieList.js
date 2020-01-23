@@ -18,7 +18,7 @@ class MovieList extends Component {
         return(
             <div class="row">
                 <div class="col s6">
-                <h3>Your must watch movies list</h3>
+                <h3>Your Movie Watch List</h3>
                     <ul class="collection">
                         {movies.map(({_id, title, actor, year}) => (
                         <li class="collection-item avatar">
