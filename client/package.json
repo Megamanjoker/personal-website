@@ -39,4 +39,5 @@
     ]
   },
   "proxy": "http://myapp-node-server:5000"
+
 }
