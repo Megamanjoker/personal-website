@@ -1,0 +1,37 @@
+{
+  "site": {
+    "title": "Tyler Valant",
+    "base_url": "/",
+    "favicon": "/images/developer.png"
+  },
+
+  "settings": {
+    "pagination": 6,
+    "summary_length": 200,
+    "blog_folder": "posts"
+  },
+
+  "profile": {
+    "name": "Tyler Valant",
+    "image": "/images/developer.png",
+    "designation": "Full Stack developer",
+    "bio": "A Full Stack Developer based in Texas. Meticulous web developer with over 8 years of front/backend experience and passion for responsive and mobile-first website design."
+  },
+
+  "params": {
+    "contact_form_action": "#",
+    "tag_manager_id": "",
+    "copyright": "Copyright © 2023 a theme by [statichunt](https://statichunt.com)"
+  },
+
+  "metadata": {
+    "meta_author": "Statichunt",
+    "meta_image": "",
+    "meta_description": ""
+  },
+
+  "disqus": {
+    "enable": false,
+    "shortname": "themefisher-template"
+  }
+}
