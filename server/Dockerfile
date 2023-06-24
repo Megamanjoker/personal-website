@@ -1,6 +1,6 @@
 #  Dockerfile for Node Express Backend
 
-FROM node:10.16-alpine
+FROM node:latest
 
 # Create App Directory
 RUN mkdir -p /usr/src/app
