@@ -8,4 +8,4 @@ draft: false
 
 ## Get in touch
 
-You can contact me on [linkin](https://www.linkedin.com/in/tyler-valant/)
+You can contact me on [Linked-In](https://www.linkedin.com/in/tyler-valant/)
