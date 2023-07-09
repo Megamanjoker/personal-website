@@ -32,8 +32,8 @@ services:
     build:
       context: ./client
       dockerfile: Dockerfile
-    image: tyler-valant-personal-website-react-client
-    container_name: personal-website-react-client
+    image: mike-valant-personal-website-react-client
+    container_name: mike-valant-personal-website-react-client
     command: npm start
     volumes:
       - ./client/:/usr/app

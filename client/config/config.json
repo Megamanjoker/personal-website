@@ -1,6 +1,6 @@
 {
   "site": {
-    "title": "Tyler Valant",
+    "title": "Mike Valant",
     "base_url": "/",
     "favicon": "/images/developer.png"
   },
@@ -12,10 +12,10 @@
   },
 
   "profile": {
-    "name": "Tyler Valant",
+    "name": "Michael (Mike) Valant",
     "image": "/images/developer.png",
-    "designation": "Full Stack developer",
-    "bio": "A Full Stack Developer based in Texas. Meticulous web developer with over 8 years of front/backend experience and passion for responsive and mobile-first website design."
+    "designation": "Senior Principal Engineer",
+    "bio": "25+ years of engineering and management experience in a diverse range of specialties, including mechanical, electromechanical, pneumatic, cryogenic, and hydraulic design, CAD/CAM, thermo-structural FEA, multi-phase CFD modeling, rocket propulsion system design and development, cryogenic testing, rocket engine testing, automotive design, metal additive rapid manufacturing, machine tool design, various welding technologies, and other manufacturing technologies"
   },
 
   "params": {
